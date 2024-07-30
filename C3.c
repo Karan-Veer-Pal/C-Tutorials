@@ -1,7 +1,7 @@
 // WAP to subtract of numbers?
 #include<stdio.h>
 
-void main()
+int main()
 {
 	int num1, num2, num3, sub;
 	
