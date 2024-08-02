@@ -1,4 +1,4 @@
-// WAP to demonstrate the function of Implicit Type Convertion? 
+// Day : 06 WAP to demonstrate the function of Implicit Type Convertion? 
 
 #include<stdio.h>
 
