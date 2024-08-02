@@ -1,4 +1,4 @@
-// WAP to divide of numbers?
+// Day : 05 WAP to divide of numbers?
 #include<stdio.h>
 
 int main()
