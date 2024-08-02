@@ -1,4 +1,4 @@
-// WAP to subtract of numbers?
+// Day : 03 WAP to subtract of numbers?
 #include<stdio.h>
 
 int main()
