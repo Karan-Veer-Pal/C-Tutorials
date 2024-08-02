@@ -5,7 +5,7 @@
 int main()
 {
 	int a = 7.47;
-	clrscr();
+	
 	printf(" Example of implicit type convertion : %d \n", a);
 
 	return 0;
