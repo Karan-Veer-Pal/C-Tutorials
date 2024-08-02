@@ -1,4 +1,4 @@
-// WAP to sum of numbers?
+// Day : 02 WAP to sum of numbers?
 
 #include<stdio.h>
 
