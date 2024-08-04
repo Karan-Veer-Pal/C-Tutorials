@@ -8,7 +8,7 @@ int main()
 	
 	c = a+b;
 	printf(" The value of c is %f \n ", c);
-	c = (int)a+b;
+	c = a+b;
 	printf(" The value of c is %d \n ", (int)c);
 
 	return 0;
