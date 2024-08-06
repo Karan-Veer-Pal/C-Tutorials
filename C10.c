@@ -1,10 +1,10 @@
-// WAP to find the biggest number?
+// Day : 10 WAP to find the biggest number?
+
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 	int a, b;
-	clrscr();
+	
 	printf("Enter the value of a and b \n :");
 	scanf("%d %d" , &a, &b);
 	if(a>b)
@@ -15,5 +15,6 @@ void main()
 	{
 		printf("b is biggest no. %d", b);
 	}
-	getch();
+
+	return 0;
 }
