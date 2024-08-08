@@ -1,10 +1,11 @@
-// WAP to explain the given number is odd and even?
+// Day : 12 WAP to find the given number is odd and even?
+
 #include<stdio.h>
-#include<conio.h>
-void main()
+
+int main()
 {
 	int a;
-	clrscr();
+	
 	printf("Enter the value of a: \n");
 	scanf("%d", &a);
 	if(a%2==0)
@@ -15,5 +16,6 @@ void main()
 	{
 		printf("a is odd");
 	}
-	getch();
+	
+	return 0;
 }
