@@ -1,10 +1,11 @@
-// WAP to calculate the electricity bill?
+// Day : 14 WAP to calculate the electricity bill?
+
 #include<stdio.h>
-#include<conio.h>
-void main()
+
+int main()
 {
 	float unit, bill;
-	clrscr();
+	
 	printf("Enter the value of unit:");
 	scanf("%f", &unit);
 	if(unit<=100)
@@ -24,5 +25,6 @@ void main()
 		bill = 6*unit;
 	}
 	printf("The bill is = %f", bill);
-	getch();
+
+	return 0;
 }
