@@ -24,7 +24,7 @@ int main()
 	{
 		bill = 6*unit;
 	}
-	printf("The bill is = %f", bill);
+	printf("The bill is = %.2f", bill);
 
 	return 0;
 }
