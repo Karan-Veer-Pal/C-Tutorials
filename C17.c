@@ -1,12 +1,11 @@
 // Day : 17 WAP to find the biggest number in four variables?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	int a,b,c,d;
-	clrscr();
+	
 	printf("Enter the value of a,b,c and d:");
 	scanf("%d%d%d%d", &a,&b,&c,&d);
 	if(a>b)
@@ -46,6 +45,6 @@ void main()
 	{
 		printf("d is biggest");
 	}
-	getch();
-
+	
+	return 0;
 }
