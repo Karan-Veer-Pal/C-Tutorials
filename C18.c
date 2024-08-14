@@ -1,11 +1,11 @@
-// WAP to find the biggest number in three variables?
-#include<stdio.h>
-#include<conio.h>
+// Day : 18 WAP to find the biggest number in three variables?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	float a,b,c;
-	clrscr();
+	
 	printf("Enter the value of a,b and c: \n");
 	scanf("%f%f%f", &a,&b,&c);
 	if(a>b)
@@ -30,5 +30,6 @@ void main()
 			printf("c is biggest");
 		}
 	}
-	getch();
+
+	return 0;
 }
