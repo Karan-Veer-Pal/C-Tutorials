@@ -1,11 +1,11 @@
-// WAP to enter week days in number and convert into day?
-#include<stdio.h>
-#include<conio.h>
+// Day : 19 WAP to enter week days in number and convert into day?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int a;
-	clrscr();
+	
 	printf("Enter the value of a:");
 	scanf("%d", &a);
 	switch(a)
@@ -51,5 +51,6 @@ void main()
 			break;
 		}
 	}
-	getch();
+
+	return 0;
 }
