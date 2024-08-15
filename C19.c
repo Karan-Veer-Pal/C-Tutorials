@@ -1,4 +1,4 @@
-// Day : 19 WAP to enter week days in number and convert into day?
+// Day : 18 WAP to enter week days in number and convert into day?
 
 #include<stdio.h>
 
@@ -6,7 +6,7 @@ int main()
 {
 	int a;
 	
-	printf("Enter the value of a:");
+	printf("Enter the value of a between 1 to 7 : \n");
 	scanf("%d", &a);
 	switch(a)
 	{
