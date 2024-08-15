@@ -6,7 +6,7 @@ int main()
 {
 	int a,b,c,d;
 	
-	printf("Enter the value of a,b,c and d:");
+	printf("Enter the value of a,b,c and d: \n");
 	scanf("%d%d%d%d", &a,&b,&c,&d);
 	if(a>b)
 	{
@@ -23,21 +23,18 @@ int main()
 		}
 
 	}
-	else
+	else if(b>c)
 	{
-		if(b>c)
+		if(b>d)
 		{
-			if(b>d)
-			{
-				printf("b is biggest");
-			}
-			else
-			{
-				printf("d is biggest");
-			}
+			printf("b is biggest");
+		}
+		else
+		{
+			printf("d is biggest");
 		}
 	}
-	if(c>d)
+	else if(c>d)
 	{
 		printf("c is biggest");
 	}
