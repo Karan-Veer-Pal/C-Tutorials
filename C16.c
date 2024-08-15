@@ -1,4 +1,4 @@
-// Day : 15 WAP to calculate the area of square and area of triangle?
+// Day : 16 WAP to calculate the area of square and area of triangle?
 
 #include<stdio.h>
 
