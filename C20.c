@@ -1,10 +1,11 @@
-// WAP to enter month in number and convert them into month name?
+// Day : 20 WAP to enter month in number and convert them into month name?
+
 #include<stdio.h>
-#include<conio.h>
-void main()
+
+int main()
 {
 	int a;
-	clrscr();
+	
 	printf("Enter any number of a");
 	scanf("%d", &a);
 	switch(a)
@@ -75,5 +76,6 @@ void main()
 			break;
 		}
 	}
-	getch();
+	
+	return 0;
 }
