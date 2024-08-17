@@ -1,10 +1,11 @@
-// WAP to convert a digit into word?
+// Day : 21  WAP to convert a digit into word?
+
 #include<stdio.h>
-#include<conio.h>
-void main()
+
+int main()
 {
 	int a;
-	clrscr();
+	
 	printf("Enter any number of a");
 	scanf("%d", &a);
 	switch(a)
@@ -60,5 +61,6 @@ void main()
 			break;
 		}
 	}
-	getch();
+
+	return 0;
 }
