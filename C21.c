@@ -6,7 +6,7 @@ int main()
 {
 	int a;
 	
-	printf("Enter any number of a");
+	printf("Enter any number of a : \n");
 	scanf("%d", &a);
 	switch(a)
 	{
