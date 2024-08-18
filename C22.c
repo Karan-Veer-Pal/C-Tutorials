@@ -1,4 +1,5 @@
-// WAP to perform a for loop?
+// Day : 22 WAP to perform a for loop?
+
 #include<stdio.h>
 #include<conio.h>
 
