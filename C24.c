@@ -1,18 +1,20 @@
-// WAP to find odd number by using for loop?
-#include<stdio.h>
-#include<conio.h>
+// Day : 24 WAP to find odd number by using for loop?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int i, n;
-	clrscr();
+	
 	printf("Enter any number n: \n");
 	scanf("%d", &n);
+	
 	//first method:
 	for(i=1; i<=n; i = i+2)
 	{
 		printf("%d \n", i);
 	}
+	
 	// second method:
 	printf("Enter any number n: \n");
 	scanf("%d", &n);
@@ -23,5 +25,6 @@ void main()
 			printf("%d \n", i);
 		}
 	}
-	getch();
+
+	return 0;
 }
