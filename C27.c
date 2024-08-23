@@ -1,11 +1,11 @@
-// WAP to print decending order by using while loop?
-#include<stdio.h>
-#include<conio.h>
+// Day : 27 WAP to print decending order by using while loop?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int i, n;
-	clrscr();
+	
 	printf("Enter the value of n is :");
 	scanf("%d", &n);
 	i=n;
@@ -14,5 +14,6 @@ void main()
 		printf("%d \n", i);
 		i--;
 	}
-	getch();
+
+	return 0;
 }
