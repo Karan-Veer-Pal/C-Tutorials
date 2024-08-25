@@ -1,11 +1,11 @@
-// WAP with using continue statement?
-#include<stdio.h>
-#include<conio.h>
+// Day : 29 WAP with using continue statement?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int i, n;
-	clrscr();
+	
 	//printf("Enter the value of n is:");
 	//scanf("%d", &n);
 	for(i=0 ; i<=10; i++)
@@ -16,5 +16,6 @@ void main()
 		}
 		printf("%d \n", i);
 	}
-	getch();
+
+	return 0;
 }
