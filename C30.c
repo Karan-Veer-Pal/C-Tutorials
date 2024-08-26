@@ -1,16 +1,16 @@
-// WAP to demonstrate of a function with no argument and no return a value?
+// Day : 30 WAP to demonstrate of a function with no argument and no return a value?
 
 #include<stdio.h>
-#include<conio.h>
 
-void Get_Name();  // function declaration
-void main()
+int Get_Name();  // function declaration
+int main()
 {
-	clrscr();
 	Get_Name();  // calling
-	getch();
+
+	return 0;
 }
-void Get_Name()
+
+int Get_Name()
 {
 	char name[50];
 	gets(name);
