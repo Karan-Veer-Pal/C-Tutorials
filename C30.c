@@ -13,6 +13,7 @@ int main()
 int Get_Name()
 {
 	char name[50];
+	printf("Enter Your Name : \n");
 	gets(name);
 	puts(name);
 }
