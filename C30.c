@@ -1,4 +1,4 @@
-// Day : 30 WAP to demonstrate of a function with no argument and no return a value?
+// Day : 30 WAP to demonstration of a function with no argument and no return a value?
 
 #include<stdio.h>
 
