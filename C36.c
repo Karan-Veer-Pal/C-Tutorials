@@ -9,8 +9,8 @@ int main()
 	printf("good morning");
 	printf("good afternoon");
 	printf("good evening");
-	Hii;
-	printf("good night");
+	Hii:
+		printf("good night");
 	
 	return 0;
 }
