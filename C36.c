@@ -1,11 +1,9 @@
-// WAP of unconditional statement go to?
+// Day : 36 WAP of unconditional statement go to?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
-	clrscr();
 	printf("hello");
 	goto Hii;
 	printf("good morning");
@@ -13,6 +11,6 @@ void main()
 	printf("good evening");
 	Hii;
 	printf("good night");
-	getch();
-
+	
+	return 0;
 }
