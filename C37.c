@@ -1,12 +1,12 @@
-// WAP to show the use of register storage class?
+// Day : 37 WAP to show the use of register storage class?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	register int a;
-	clrscr();
+	
 	printf("The value of a = %d", a);
-	getch();
+
+	return 0;
 }
