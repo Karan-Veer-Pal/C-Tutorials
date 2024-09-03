@@ -1,12 +1,12 @@
-// WAP to show the use of static storage class?
+// Day : 38 WAP to show the use of static storage class?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	static int a;
-	clrscr();
+	
 	printf("The value of a = %d", a);
-	getch();
+
+	return 0;
 }
