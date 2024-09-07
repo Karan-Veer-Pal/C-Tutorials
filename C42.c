@@ -1,16 +1,15 @@
-// WAP to perform a arithmetic operation by using function?
+// Day : 42  WAP to perform a arithmetic operation by using function?
 
 #include<stdio.h>
-#include<conio.h>
 
 void sum(int a, int b);
 void sub(int c, int d);
 void mul(int e, int f);
 void div(int g, int h);
-void main()
+int main()
 {
 	int a, b, c, d, e, f, g, h;
-	clrscr();
+	
 	printf("Enter the value of a, b, c, d, e, f, g and h: \n");
 	scanf("%d%d%d%d%d%d%d%d", &a, &b, &c, &d, &e, &f, &g, &h);
 
@@ -18,7 +17,8 @@ void main()
 	sub(c,d);
 	mul(e,f);
 	div(g,h);
-	getch();
+
+	return 0;
 }
 void sum(int a, int b)
 {
