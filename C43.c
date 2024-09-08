@@ -1,12 +1,10 @@
-// WAP to perform a multiplication of two matrix?
+// Day : 43 WAP to perform a multiplication of two matrix?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	int a[50][50], b[50][50], c[50][50], m, n, p, q, i, j, k;
-	clrscr();
 
 	printf("Enter the order of row and column:");
 	scanf("%d %d", &m, &n);
@@ -33,18 +31,18 @@ void main()
 	scanf("%d %d", &p, &q);
 
 	printf("Enter the element into matrix:");
-	for(i=0; i<m; i++)
+	for(i=0; i<p; i++)
 	{
-		for(j=0; j<n; j++)
+		for(j=0; j<q; j++)
 		{
 			scanf("%d", &a[i][j]);
 		}
 	}
 
 	printf("Enter the element into matrix:");
-	for(i=0; i<m; i++)
+	for(i=0; i<p; i++)
 	{
-		for(j=0; j<n; j++)
+		for(j=0; j<q; j++)
 		{
 			scanf("%d", &b[i][j]);
 		}
@@ -79,5 +77,6 @@ void main()
 		}
 		printf("\n");
 	}
-	getch();
+
+	return 0;
 }
