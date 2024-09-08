@@ -6,10 +6,10 @@ int main()
 {
 	int a[50][50], b[50][50], c[50][50], m, n, p, q, i, j, k;
 
-	printf("Enter the order of row and column:");
+	printf("Enter the order of row and column for first matrix:");
 	scanf("%d %d", &m, &n);
 
-	printf("Enter the element into matrix:");
+	printf("Enter %d element into first matrix:", m*n);
 	for(i=0; i<m; i++)
 	{
 		for(j=0; j<n; j++)
@@ -18,28 +18,10 @@ int main()
 		}
 	}
 
-	printf("Enter the element into matrix:");
-	for(i=0; i<m; i++)
-	{
-		for(j=0; j<n; j++)
-		{
-			scanf("%d", &b[i][j]);
-		}
-	}
-
-	printf("Enter the order of row and column:");
+	printf("Enter the order of row and column for second matrix:");
 	scanf("%d %d", &p, &q);
 
-	printf("Enter the element into matrix:");
-	for(i=0; i<p; i++)
-	{
-		for(j=0; j<q; j++)
-		{
-			scanf("%d", &a[i][j]);
-		}
-	}
-
-	printf("Enter the element into matrix:");
+	printf("Enter %d element into second matrix:", p*q);
 	for(i=0; i<p; i++)
 	{
 		for(j=0; j<q; j++)
@@ -47,11 +29,10 @@ int main()
 			scanf("%d", &b[i][j]);
 		}
 	}
-
 
 	if(n!=p)
 	{
-		printf("Multiplication is not possible");
+		printf("Multiplication is not possible because matrix order is different!");
 	}
 	else
 	{
@@ -66,16 +47,16 @@ int main()
 				}
 			}
 		}
-	}
 
-	printf("Multiplication of a matrix:\n");
-	for(i=0; i<m; i++)
-	{
-		for(j=0; j<n; j++)
+		printf("Multiplication of a matrix:\n");
+		for(i=0; i<m; i++)
 		{
-			printf("%d\t", c[i][j]);
+			for(j=0; j<n; j++)
+			{
+				printf("%d\t", c[i][j]);
+			}
+			printf("\n");
 		}
-		printf("\n");
 	}
 
 	return 0;
