@@ -1,17 +1,16 @@
-// WAP to perform a addtion of two matrix?
+// Day : 44 WAP to perform a addtion of two matrix?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	int a[50][50], b[50][50], c[50][50], m, n, i, j;
-	clrscr();
+	
 
 	printf("Enter the order of row and column:");
 	scanf("%d %d", &m, &n);
 
-	printf("Enter the element into matrix:");
+	printf("Enter %d element into first matrix: ", m*n);
 	for(i=0; i<m; i++)
 	{
 		for(j=0; j<n; j++)
@@ -20,7 +19,7 @@ void main()
 		}
 	}
 
-	printf("Enter the element into matrix:");
+	printf("Enter %d element into second matrix: ", m*n);
 	for(i=0; i<m; i++)
 	{
 		for(j=0; j<n; j++)
@@ -48,5 +47,6 @@ void main()
 		}
 		printf("\n");
 	}
-	getch();
+
+	return 0;
 }
