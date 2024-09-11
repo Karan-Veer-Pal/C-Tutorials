@@ -1,29 +1,28 @@
-// WAP to perform a sorting with using function array?
+// Day : 46 WAP to perform a sorting with using function array?
 
 #include<stdio.h>
-#include<conio.h>
 
 void bubble_sort(int p[], int m);
-void main()
+int main()
 {
 	int a[50], n, i;
-	clrscr();
 
 	printf("enter the size of array:\n");
 	scanf("%d", &n);
 
-	printf("Enter the element into array:");
+	printf("Enter %d element into array: ", n);
 	for(i=0; i<n; i++)
 	{
 		scanf("%d", &a[i]);
 	}
 
 	bubble_sort(a,n);
-	getch();
+
+	return 0;
 }
 void bubble_sort(int p[], int m)
 {
-	int i, j, t, a[50];
+	int i, j, t;
 
 	for(i=0; i<m; i++)
 	{
