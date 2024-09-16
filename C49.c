@@ -1,11 +1,11 @@
-#include<stdio.h>
-#include<conio.h>
+// Day : 49 WAP to find the average using array? 
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int a[50], m, i, sum;
 	float average;
-	clrscr();
 
 	printf("Enter the size of array:\n");
 	scanf("%d", &m);
@@ -25,5 +25,6 @@ void main()
 	printf("The sum of element is: %d\n", sum);
 	average = (float)sum/m;
 	printf("The average of the element into array is: %f\n", average);
-	getch();
+
+	return 0;
  }
