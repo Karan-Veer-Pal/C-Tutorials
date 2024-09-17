@@ -1,13 +1,11 @@
-// WAP to find out the length of the string without using library function?
+// Day : 50 WAP to find out the length of the string without using library function?
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	char st[50];
 	int n, i;
-	clrscr();
 
 	printf("Enter any string:");
 	gets(st);
@@ -18,5 +16,6 @@ void main()
 	}
 
 	printf("The length of the string is = %d", i);
-	getch();
+
+	return 0;
 }
