@@ -1,14 +1,12 @@
-// WAP to copy the string in one to another without using library function?
+// Day : 51 WAP to copy the string in one to another without using library function?
 
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char st1[50], st2[50];
 	int i;
-	clrscr();
 
 	printf("Enter any string:");
 	gets(st1);
@@ -22,5 +20,5 @@ void main()
 	printf("After copy the second string is:");
 	puts(st2);
 
-	getch();
+	return 0;
 }
