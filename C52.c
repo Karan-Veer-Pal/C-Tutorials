@@ -1,14 +1,12 @@
-// WAP to string concatination without using library function?
+// Day : 52 WAP to string concatination without using library function?
 
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char st1[50], st2[50];
 	int i, j;
-	clrscr();
 
 	printf("Enter first string:");
 	gets(st1);
@@ -32,5 +30,5 @@ void main()
 	printf("After concatination the string is:");
 	puts(st1);
 
-	getch();
+	return 0;
 }
