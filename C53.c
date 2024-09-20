@@ -1,14 +1,12 @@
-// WAP to compare two string without using library function?
+// Day : 53 WAP to compare two string without using library function?
 
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char st1[50], st2[50];
 	int n, i, j;
-	clrscr();
 
 	printf("Enter first string:");
 	gets(st1);
@@ -34,5 +32,5 @@ void main()
 		printf("string is not identical");
 	}
 
-	getch();
+	return 0;
 }
