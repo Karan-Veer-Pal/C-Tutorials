@@ -17,11 +17,10 @@ int main()
 		if(st[i] == 'a' || st[i] == 'A' || st[i] == 'e' || st[i] == 'E' || st[i] == 'i' || st[i] == 'I' || st[i] == 'o' || st[i] == 'O' || st[i] == 'u' || st[i] == 'U')
 		{
 			vowel++;
-			//printf("%d", vowel);
 		}
-		//printf("%d", vowel);
 	}
-	//printf("%e", st[50]);
+	printf("%e", st[50]);
+	printf("%d", vowel);
 
-	return ;
+	return 0;
 }
