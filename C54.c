@@ -1,15 +1,13 @@
-// WAP to detect the vowel in the word?
+// Day : 54 WAP to detect the vowel in the word?
 
 #include<stdio.h>
-#include<conio.h>
 #include<ctype.h>
 
-void main()
+int main()
 {
 	char st[50];
 	int vowel = 0;
 	int i;
-	clrscr();
 
 	printf("Enter your string:\n");
 	scanf("%s", st[50]);
@@ -24,5 +22,6 @@ void main()
 		//printf("%d", vowel);
 	}
 	//printf("%e", st[50]);
-	getch();
+
+	return ;
 }
