@@ -6,7 +6,7 @@ int main()
 {
 	int a = 5;
 
-	printf("The address of a is : %d\n", &a);
+	printf("The address of a is : %u\n", &a);
 
 	return 0;
 }
