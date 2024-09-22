@@ -1,12 +1,12 @@
-// WAP to access the address of variable?
-#include<stdio.h>
-#include<conio.h>
+// Day : 55 WAP to access the address of variable?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int a = 5;
-	clrscr();
 
-	printf("The address of a is:%d\n", &a);
-	getch();
+	printf("The address of a is : %d\n", &a);
+
+	return 0;
 }
