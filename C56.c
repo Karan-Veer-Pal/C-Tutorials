@@ -1,4 +1,4 @@
-// WAP pointer with array?
+// Day : 56 WAP pointer with array?
 #include<stdio.h>
 #include<conio.h>
 
