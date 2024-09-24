@@ -1,21 +1,19 @@
-// WAP using call by value?
+// Day : 57 WAP using call by value?
 
 #include<stdio.h>
-#include<conio.h>
 
-void add_(int x, int y);
-void main()
+void add(int x, int y);
+int main()
 {
 	int a = 15, b = 10;
-	clrscr();
 
 	printf("Before function call a=%d, b=%d\n", a,b);
-	add_(a,b);
+	add(a,b);
 	printf("After function call a=%d, b=%d\n", a,b);
 
-	getch();
+	return 0;
 }
-void add_(int x, int y)
+void add(int x, int y)
 {
 	x = x+10;
 	y = y+10;
