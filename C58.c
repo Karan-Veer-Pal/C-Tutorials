@@ -7,13 +7,10 @@ struct name
 	int a;
 	float b;
 };
-struct name *ptr.p;
-ptr = &p;
 
 int main()
 {
-	//struct name *ptr.p;
-	//ptr = &p;
+	struct name *ptr;
 
 	printf("Enter integer number:\n");
 	scanf("%d", &ptr->a);
