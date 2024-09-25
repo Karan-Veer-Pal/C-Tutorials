@@ -1,7 +1,6 @@
-// WAP to access structure member through pointer?
+// Day : 58 WAP to access structure member through pointer?
 
 #include<stdio.h>
-#include<conio.h>
 
 struct name
 {
@@ -11,9 +10,8 @@ struct name
 struct name *ptr.p;
 ptr = &p;
 
-void main()
+int main()
 {
-	clrscr();
 	//struct name *ptr.p;
 	//ptr = &p;
 
@@ -27,5 +25,5 @@ void main()
 	printf("Interger number is = %d\n", ptr->a);
 	printf("Floating number is = %f\n", ptr->b);
 
-	getch();
+	return 0;
 }
