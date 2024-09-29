@@ -1,14 +1,12 @@
-// WAP to change the value of a variable to ten times of its current value. Write a function and pass the value by value and reference?
+// Day : 62 WAP to change the value of a variable to ten times of its current value. Write a function and pass the value by value and reference?
 
 #include<stdio.h>
-#include<conio.h>
 
 void callbyvalue(int x, int y);
 void callbyreference(int *x, int *y);
-void main()
+int main()
 {
 	int a, b;
-	clrscr();
 
 	printf("Enter the value of a and b:\n");
 	scanf("%d%d", &a, &b);
@@ -20,7 +18,7 @@ void main()
 	callbyreference(&a,&b);
 	printf("After the function calling of call by reference a=%d and b=%d\n", a, b);
 
-	getch();
+	return 0;
 }
 void callbyvalue(int x, int y)
 {
