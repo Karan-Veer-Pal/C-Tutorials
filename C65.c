@@ -1,13 +1,13 @@
-// WAP to print the value and address of a variable i by using "pointer to pointer" type of variable?
-#include<stdio.h>
-#include<conio.h>
+// Day : 65 WAP to print the value and address of a variable i by using "pointer to pointer" type of variable?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int *ptr, **p, i;
 	ptr=&i;
 	p=&ptr;
-	clrscr();
+	
 
 	printf("Enter the value of i:\n");
 	scanf("%d", &i);
@@ -18,5 +18,5 @@ void main()
 	printf("The address of i by normal pointer is:%u\n", ptr);
 	printf("The address of i by pointer to pointer is:%u\n", *p);
 
-	getch();
+	return 0;
 }
