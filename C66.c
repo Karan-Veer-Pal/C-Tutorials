@@ -1,12 +1,11 @@
-// WAP to writing some contain or text to a file?
-#include<stdio.h>
-#include<conio.h>
+// Day : 66 WAP to writing some content or text to a file?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int n;
 	FILE *fp;
-	clrscr();
 
 	fp = fopen("demo.txt","a+");
 	if(fp == NULL)
@@ -20,5 +19,6 @@ void main()
 
 	fprintf(fp,"%d",n);
 	fclose(fp);
-	getch();
+	
+	return 0;
 }
