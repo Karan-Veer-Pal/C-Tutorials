@@ -1,13 +1,14 @@
 // Day : 66 WAP to writing some content or text to a file?
 
 #include<stdio.h>
+#include<stdlib.h>
 
 int main()
 {
 	int n;
 	FILE *fp;
 
-	fp = fopen("demo.txt","a+");
+	fp = fopen("demo.txt","a");
 	if(fp == NULL)
 	{
 		printf("Error!");
