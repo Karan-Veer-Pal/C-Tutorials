@@ -1,11 +1,10 @@
-//WAP to demonstrate the bitwise AND, OR, X-OR, COMPLEMENT, SHIFT LEFT, SHIFT RIGHT?
-#include<stdio.h>
-#include<conio.h>
+// Day : 69 WAP to demonstrate the bitwise AND, OR, X-OR, COMPLEMENT, SHIFT LEFT, SHIFT RIGHT?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int a, b;
-	clrscr();
 
 	printf("Enter the value of a & b:\n");
 	scanf("%d%d", &a, &b);
@@ -15,5 +14,5 @@ void main()
 	printf("Output of bitwise X-OR=%d\n", a|b);
 	//printf("Output of bitwise COMPLEMENT=%d\n", ~b);
 
-	getch();
+	return 0;
 }
