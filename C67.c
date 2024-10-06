@@ -1,4 +1,4 @@
-// Day : 67 WAP to writing some contain or text to a file?
+// Day : 67 WAP to writing some conteny or text to a file?
 
 #include<stdio.h>
 #include<stdlib.h>
