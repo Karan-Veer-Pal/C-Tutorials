@@ -1,4 +1,4 @@
-// Day : 68 WAP to writing some contend or text in a file?
+// Day : 68 WAP to reading some content or text in a file?
 
 #include<stdio.h>
 #include<stdlib.h>
