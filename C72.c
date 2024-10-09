@@ -1,8 +1,8 @@
-// WAP to demonstrate the area is defined and not?
+// Day : 72 WAP to demonstrate the area is defined and not?
+
 #define area 5000
-void main()
+int main()
 {
-	clrscr();
 	#ifdef area
 	{
 		printf("Area is defined!");
@@ -13,5 +13,5 @@ void main()
 	}
 	#endif
 
-	getch();
+	return 0;
 }
