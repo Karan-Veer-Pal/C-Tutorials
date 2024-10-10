@@ -1,13 +1,12 @@
-// WAP to check a string is palinfrom or not?
+// Day : 73 WAP to check a string is palinfrom or not?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str[50];
 	int i, len, flag = 0;
-	clrscr();
 
 	printf("Enter the string:\n");
 	gets(str);
@@ -31,5 +30,5 @@ void main()
 		printf("The given string is not palindrom!");
 	}
 
-	getch();
+	return 0;
 }
