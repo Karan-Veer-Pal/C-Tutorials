@@ -33,6 +33,6 @@ int main()
 		cputs("Is the biggest numbeer!\n");
 	}
 
-	return 0;
 	restorecrtmode();
+	return 0;
 }
