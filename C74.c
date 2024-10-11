@@ -1,13 +1,11 @@
-// WAP to find biggest number using graphics?
+// Day : 74 WAP to find biggest number using graphics?
 
 #include<stdio.h>
-#include<conio.h>
 #include<graphics.h>
 
-void main()
+int main()
 {
 	int a, b;
-	clrscr();
 
 	textmode(C80);
 	textbackground(RED);
@@ -34,6 +32,7 @@ void main()
 		printf("%d", b);
 		cputs("Is the biggest numbeer!\n");
 	}
-	getch();
+
+	return 0;
 	restorecrtmode();
 }
