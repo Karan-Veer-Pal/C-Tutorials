@@ -1,12 +1,11 @@
-// WAP to accept marks of five student in an array and print them to the screen?
+// Day : 76 WAP to accept marks of five student in an array and print them on the screen?
 //Without using loops....
-#include<stdio.h>
-#include<conio.h>
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int a[5];
-	clrscr();
 
 	printf("Enter the marks of student of a[1]:\n");
 	scanf("%d", &a[1]);
@@ -25,6 +24,6 @@ void main()
 	printf("The marks of student of a[4] is %d\n",a[4]);
 	printf("The marks of student of a[5] is %d\n",a[5]);
 
-	getch();
+	return 0;
 
 }
