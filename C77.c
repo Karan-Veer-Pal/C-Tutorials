@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-void main()
+int main()
 {
 	int a[5], i;
 
