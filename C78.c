@@ -1,13 +1,12 @@
-//WAP to demonstrate the pointer increment and decrement?
-#include<stdio.h>
-#include<conio.h>
+// Day : 78 WAP to demonstrate the pointer increment and decrement?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int i=77;
 	int *ptr;
 	ptr=&i;
-	clrscr();
 
 	printf("The value of ptr is %u\n", ptr);
 	ptr++;
@@ -28,5 +27,5 @@ void main()
 	printf("The value of ptr is %u\n", ptr);
 	ptr++;
 
-	getch();
+	return 0;
 }
