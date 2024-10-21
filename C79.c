@@ -1,15 +1,14 @@
-// WAP to addition of a number to a pointer?
-#include<stdio.h>
-#include<conio.h>
+// Day : 79 WAP to addition of a number to a pointer?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int i, j;
 	int *ptr;
 	int *pointer;
 	ptr=&i;
 	pointer=&j;
-	clrscr();
 
 	printf("The ptr value is %u\n", ptr);
 	ptr=ptr+1;
@@ -31,5 +30,5 @@ void main()
 		printf("pointer is smaller by %u", pointer);
 	}
 
-	getch();
+	return 0;
 }
