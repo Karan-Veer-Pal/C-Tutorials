@@ -1,13 +1,12 @@
-// WAP to demonstrate the accessing the array through pointer?
-#include<stdio.h>
-#include<conio.h>
+// Day : 80 WAP to demonstrate the accessing the array through pointer?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[3],n,i;
 	int *ptr;
 	ptr=&arr[0];
-	clrscr();
 
 	for(i=0; i<3; i++)
 	{
@@ -19,5 +18,6 @@ void main()
 	{
 		printf("The marks of student %d is %d\n", i+1, arr[i]);
 	}
-	getch();
+
+	return 0;
 }
