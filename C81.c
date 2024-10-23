@@ -1,4 +1,4 @@
-// day : 81 WAP to access the array by using function?
+// Day : 81 WAP to access the array by using function?
 
 #include<stdio.h>
 
