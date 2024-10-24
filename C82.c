@@ -1,13 +1,12 @@
-//WAP to demonstrate a 2D array?
-#include<stdio.h>
-#include<conio.h>
+// Day : 82 WAP to demonstrate a 2D array?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int n_students=3;
 	int n_subjects=5;
 	int marks[3][5], i, j;
-	clrscr();
 
 	for(i=0; i<n_students; i++)
 	{
@@ -26,5 +25,5 @@ void main()
 		printf("\n");
 	}
 
-	getch();
+	return 0;
 }
