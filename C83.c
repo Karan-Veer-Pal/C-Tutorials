@@ -1,11 +1,10 @@
-//WAP to produce a matrix using 2D array?
-#include<stdio.h>
-#include<conio.h>
+// Day : 83 WAP to produce a matrix using 2D array?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[100][100], i, j, n, m;
-	clrscr();
 
 	printf("Enter the size of row(n) and column(m):\n");
 	scanf("%d%d",&n, &m);
@@ -27,5 +26,5 @@ void main()
 		printf("\n");
 	}
 
-	getch();
+	return 0;
 }
