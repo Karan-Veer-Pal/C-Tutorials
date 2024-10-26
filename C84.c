@@ -1,12 +1,11 @@
-//WAP to add to matrix by using function?
+// Day : 84 WAP to add to matrix by using function?
+
 #include<stdio.h>
-#include<conio.h>
 
 void display(int m1[100][100], int m2[100][100], int result[100][100], int rows, int columns);
-void main()
+int main()
 {
 	int i, j, rows, columns, m1[100][100], m2[100][100], result[100][100];
-	clrscr();
 
 	printf("Enter the number of rows and columns:\n");
 	scanf("%d%d", &rows, &columns);
@@ -49,7 +48,7 @@ void main()
 
 	display(m1,m2,result,rows,columns);
 
-	getch();
+	return 0;
 }
 void display(int m1[100][100], int m2[100][100], int result[100][100], int rows, int columns)
 {
