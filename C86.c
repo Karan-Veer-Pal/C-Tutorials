@@ -1,11 +1,10 @@
-//WAP to create an array of 10 integer and stores multiplication table of 5 in it?
-#include<stdio.h>
-#include<conio.h>
+// Day : 86 WAP to create an array of 10 integer and stores multiplication table of 5 in it?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[10], i, m;
-	clrscr();
 
 	printf("Enter the digit which you want to multiple:\n");
 	scanf("%d", &m);
@@ -19,5 +18,5 @@ void main()
 		printf("%dx%d=%d\n", m,i+1,arr[i]);
 	}
 
-	getch();
+	return 0;
 }
