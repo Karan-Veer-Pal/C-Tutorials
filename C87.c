@@ -1,13 +1,12 @@
 //WRONG**********************************************************************
-// WAP containing a function which reverses the array pass to it?
+// Day : 87 WAP containing a function which reverses the array pass to it?
+
 #include<stdio.h>
-#include<conio.h>
 
 void function(int *arr, int k);
-void main()
+int main()
 {
 	int arr[100], i, n, *k;
-	clrscr();
 
 	printf("Enter the size of array:\n");
 	scanf("%d",&n);
@@ -24,7 +23,7 @@ void main()
 	k=&n;
 	function(arr,*k);
 
-	getch();
+	return 0;
 }
 void function(int *arr, int k)
 {
