@@ -1,12 +1,11 @@
-//Create a 2D array by taking input from the user. Write a display function to print the content of this 2D array on the screen?
+// Day : 88 Create a 2D array by taking input from the user. Write a display function to print the content of this 2D array on the screen?
+
 #include<stdio.h>
-#include<conio.h>
 
 void display(int a[100][100], int rows, int columns);
-void main()
+int main()
 {
 	int arr[100][100], i, j, n, m;
-	clrscr();
 
 	printf("Enter the size of array n and m:\n");
 	scanf("%d%d",&n,&m);
@@ -21,7 +20,7 @@ void main()
 	}
 	display(arr, n, m);
 
-	getch();
+	return 0;
 }
 void display(int a[100][100], int rows, int columns)
 {
