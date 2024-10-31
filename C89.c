@@ -1,13 +1,12 @@
 //Function..
 //Different method in account************************************************
-//WAP containing function which counts the number of positive integers in an array?
-#include<stdio.h>
-#include<conio.h>
+// Day : 89 WAP containing function which counts the number of positive integers in an array?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[100], n, i, pos_count=0, neg_count=0;
-	clrscr();
 
 	printf("Enter the size of array(n):\n");
 	scanf("%d", &n);
@@ -37,5 +36,5 @@ void main()
 	printf("The positive number is %d\n", pos_count);
 	printf("The negitive number is %d\n", neg_count);
 
-	getch();
+	return 0;
 }
