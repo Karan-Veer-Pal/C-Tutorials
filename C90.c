@@ -1,11 +1,10 @@
-//WAP to make a table of any 3 numbers?
-#include<stdio.h>
-#include<conio.h>
+// Day : 90 WAP to make a table of any 3 numbers?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[10], i, j, p, q, r;
-	clrscr();
 
 	printf("Enter the number which you wants to perform a table(p)(r)(r):\n");
 	scanf("%d%d%d", &p,&q,&r);
@@ -38,5 +37,6 @@ void main()
 	{
 		printf(" %dX%d=%d ", r,i+1, arr[i]);
 	}
-	getch();
+
+	return 0;
 }
