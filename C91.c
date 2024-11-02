@@ -1,18 +1,17 @@
-//Create an 2D array of size of 3X10 containing multiplecation tables of the number 2,7 and 9 respectively?
+// Day : 91 Create an 2D array of size of 3X10 containing multiplecation tables of the number 2,7 and 9 respectively?
+
 #include<stdio.h>
-#include<conio.h>
 
 void printtable(int *table, int num, int n);
-void main()
+int main()
 {
 	int table[3][10];
-	clrscr();
 
 	printtable(table[0], 2, 10);
 	printtable(table[1], 7, 10);
 	printtable(table[2], 9, 10);
 
-	getch();
+	return 0;
 }
 void printtable(int *table, int num, int n)
 {
