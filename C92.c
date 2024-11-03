@@ -1,13 +1,12 @@
-//WAP to make a 3D array and print the address of its elements in increasing order?
-#include<stdio.h>
-#include<conio.h>
+// Day : 92 WAP to make a 3D array and print the address of its elements in increasing order?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[10][10][10], i, j, k, p, q, r, *ptr;
 	int a[2][3][4];
 	ptr=&arr[0][0][0];
-	clrscr();
 
 	printf("First method:");
 	printf("Enter the size of array(p)(q)(r):\n");
@@ -62,5 +61,5 @@ void main()
 	}
 
 
-	getch();
+	return 0;
 }
