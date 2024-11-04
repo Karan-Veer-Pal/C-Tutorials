@@ -1,11 +1,9 @@
-//WAP to find the largest and smallest number from an array?
+// Day : 93 WAP to find the largest and smallest number from an array?
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	int arr[100], i, size, big=arr[0], small=arr[0];
-	clrscr();
 
 	printf("Enter the size of array:\n");
 	scanf("%d", &size);
@@ -39,5 +37,5 @@ void main()
 	printf("The smallest number in array is:%d\n",small);
 
 
-	getch();
+	return 0;
 }
