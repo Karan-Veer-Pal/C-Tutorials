@@ -1,11 +1,10 @@
-//WAP to sort the array in ascending order?
-#include<stdio.h>
-#include<conio.h>
+// Day : 94 WAP to sort the array in ascending order?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[100], i, size, t, j;
-	clrscr();
 
 	printf("Enter the size of the array:\n");
 	scanf("%d", &size);
@@ -58,5 +57,5 @@ void main()
 		printf(",");
 	}
 
-	getch();
+	return 0;
 }
