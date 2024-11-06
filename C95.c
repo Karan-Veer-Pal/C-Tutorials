@@ -1,11 +1,10 @@
-//WAP to add two matrix of order nxm?
-#include<stdio.h>
-#include<conio.h>
+// Day : 95 WAP to add two matrix of order nxm?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int m1[100][100], m2[100][100], result[100][100], i, j, n, m;
-	clrscr();
 
 	printf("Enter the size of the first matrix(n)(m) is:\n");
 	scanf("%d%d",&n,&m);
@@ -69,7 +68,5 @@ void main()
 		printf("\n");
 	}
 
-
-
-	getch();
+	return 0;
 }
