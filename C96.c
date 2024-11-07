@@ -1,11 +1,10 @@
-//WAP to perform the multiplication of two matrix of order nxm?
-#include<stdio.h>
-#include<conio.h>
+// Day : 96 WAP to perform the multiplication of two matrix of order nxm?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int m1[100][100], m2[100][100], result[100][100], i, j, k, n, m, p, q;
-	clrscr();
 
 	printf("Reminds that order of both matrix must be same..\n");
 
@@ -81,5 +80,5 @@ void main()
 		}
 	}
 
-	getch();
+	return 0;
 }
