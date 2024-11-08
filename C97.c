@@ -1,11 +1,10 @@
-//WAP to perform a transpose of a matrix?
-#include<stdio.h>
-#include<conio.h>
+// Day : 97 WAP to perform a transpose of a matrix?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int m1[100][100], i, j, m, n;
-	clrscr();
 
 	printf("Enter the order of the matrix:\n");
 	scanf("%d%d", &m,&n);
@@ -39,5 +38,5 @@ void main()
 		printf("\n");
 	}
 
-	getch();
+	return 0;
 }
