@@ -1,12 +1,11 @@
-//WAP to sorting an array from function?
+// Day : 99 WAP to sorting an array from function?
+
 #include<stdio.h>
-#include<conio.h>
 
 void function(int a[], int n);
-void main()
+int main()
 {
 	int arr[100], i, m;
-	clrscr();
 
 	printf("Enter the size of the array:\n");
 	scanf("%d",&m);
@@ -24,7 +23,7 @@ void main()
 	}
 	function(arr,m);
 
-	getch();
+	return 0;
 }
 void function(int a[], int n)
 {
