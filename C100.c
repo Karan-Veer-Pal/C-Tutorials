@@ -1,13 +1,12 @@
-//WAP to input a string and display them?
+// Day : 100 WAP to input a string and display them?
 //Different diffrent types are:....
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str[32], st[32], s[]="karan", *ptr=s, string[]={'k','a','r','a','n','v','e','e','r','\0'}, *p;
-	clrscr();
 
 	printf("By first method using gets() and puts:\n");
 	printf("Enter the string:\n");
@@ -36,5 +35,5 @@ void main()
 		p++;
 	}
 
-	getch();
+	return 0;
 }
