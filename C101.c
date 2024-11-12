@@ -1,13 +1,12 @@
-//WAP to find out the length of the string?
+// Day : 101 WAP to find out the length of the string?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str[100];
 	int n;
-	clrscr();
 
 	printf("Enter the string:\n");
 	gets(str);
@@ -17,5 +16,5 @@ void main()
 	n=strlen(str);
 	printf("The length of the string is:%d\n",n);
 
-	getch();
+	return 0;
 }
