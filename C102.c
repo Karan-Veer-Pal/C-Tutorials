@@ -1,12 +1,11 @@
-//WAP to add two string?
+// Day : 102 bWAP to add two string?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str1[100], str2[100];
-	clrscr();
 
 	printf("Enter the first string:\n");
 	gets(str1);
@@ -24,5 +23,5 @@ void main()
 	printf("The adding is string is:\n");
 	puts(str1);
 
-	getch();
+	return 0;
 }
