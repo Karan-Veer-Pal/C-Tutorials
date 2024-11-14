@@ -1,15 +1,14 @@
-//WAP to find out the length of the string without using string?
+// Day : 103 WAP to find out the length of the string without using string?
+
 #include<stdio.h>
-#include<conio.h>
 
 int strlen(char *st);
-void main()
+int main()
 {
 	char str[]="karan";
 	int l;
 	char string[50];
 	int i, n;
-	clrscr();
 
 	printf("First method:\n");
 	l = strlen(str);
@@ -25,7 +24,7 @@ void main()
 	}
 	printf("The length of the second string is %d\n",i);
 
-	getch();
+	return 0;
 }
 int strlen(char *st)
 {
