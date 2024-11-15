@@ -1,12 +1,11 @@
-//WAP to copy the string to another string?
+// Day : 104 WAP to copy the string to another string?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str1[32], str2[32];
-	clrscr();
 
 	printf("Enter the string:\n");
 	gets(str1);
@@ -18,5 +17,5 @@ void main()
 	printf("The copied string is:\n");
 	puts(str2);
 
-	getch();
+	return 0;
 }
