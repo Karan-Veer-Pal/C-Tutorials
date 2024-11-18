@@ -1,12 +1,11 @@
-//WAP to adding two string without using function?
-#include<stdio.h>
-#include<conio.h>
+// Day : 106 WAP to adding two string without using function?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	char str1[100], str2[100];
 	int i, j;
-	clrscr();
 
 	printf("Enter the first string:\n");
 	gets(str1);
@@ -36,5 +35,5 @@ void main()
 	puts(str1);
 
 
-	getch();
+	return 0;
 }
