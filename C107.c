@@ -1,13 +1,12 @@
-//WAP to compare two string and find it is identical or not?
+// Day : 107 WAP to compare two string and find it is identical or not?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str1[100], str2[100];
 	int n;
-	clrscr();
 
 	printf("Enter the first string:\n");
 	gets(str1);
@@ -29,5 +28,5 @@ void main()
 		printf("The string is not identical\n");
 	}
 
-	getch();
+	return 0;
 }
