@@ -1,12 +1,11 @@
-//WAP to compare two string and find it is identical or not remind that without using function?
-#include<stdio.h>
-#include<conio.h>
+// Day : 108 WAP to compare two string and find it is identical or not remind that without using function?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	char str1[100], str2[100];
 	int n, i;
-	clrscr();
 
 	printf("Enter the first string:\n");
 	gets(str1);
@@ -36,5 +35,5 @@ void main()
 		printf("The string is not identical");
 	}
 
-	getch();
+	return 0;
 }
