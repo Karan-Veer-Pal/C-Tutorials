@@ -1,12 +1,11 @@
-//WAP to convert lowercase and uppercase letter?
+// Day : 109 WAP to convert lowercase and uppercase letter?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str1[100], str2[100];
-	clrscr();
 
 	printf("Enter any string for lowercase:\n");
 	gets(str1);
@@ -26,7 +25,5 @@ void main()
 	printf("The uppercase string is:\n");
 	puts(str2);
 
-
-
-	getch();
+	return 0;
 }
