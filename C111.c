@@ -1,12 +1,11 @@
-//WAP pointer with array?
-#include<stdio.h>
-#include<conio.h>
+// Day : 111 WAP pointer with array?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	int arr[100], *ptr, n, i;
 	ptr=&arr;
-	clrscr();
 
 	printf("Enter the size of the array:\n");
 	scanf("%d", &n);
@@ -23,6 +22,5 @@ void main()
 		printf("%d", ptr[i]);
 	}
 
-
-	getch();
+	return 0;
 }
