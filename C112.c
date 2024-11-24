@@ -1,13 +1,12 @@
-//WAP to take string as an input from thr user %c and %s confirm that the string are equal?
+// Day : 112 WAP to take string as an input from thr user %c and %s confirm that the string are equal?
+
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
-void main()
+int main()
 {
 	char str1[32], str2[32], c;
 	int i;
-	clrscr();
 
 	printf("Enter the first string:\n");
 	scanf("%s",str1);
@@ -28,6 +27,5 @@ void main()
 
 	printf("strcmp for these strings returns %d", strcmp(str1,str2));
 
-
-	getch();
+	return 0;
 }
