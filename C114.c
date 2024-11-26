@@ -1,13 +1,12 @@
-//WAP to encrypt and decrypt a string by adding 1 to the ASCII value of its characters?
+// Day : 114 WAP to encrypt and decrypt a string by adding 1 to the ASCII value of its characters?
+
 #include<stdio.h>
-#include<conio.h>
 
 void encrypt(char *c);
 void decrypt(char *a);
-void main()
+int main()
 {
 	char str1[100];
-	clrscr();
 
 	printf("Enter any string or a message which you want to be encrypt or decrypt:\n");
 	gets(str1);
@@ -17,8 +16,7 @@ void main()
 	decrypt(str1);
 	printf("Decrypt string or message is:%s\n", str1);
 
-
-	getch();
+	return 0;
 }
 void encrypt(char *c)
 {
