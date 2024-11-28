@@ -1,18 +1,17 @@
-//WAP to count the occurence of a given character in a string?
+// Day : 116 WAP to count the occurence of a given character in a string?
+
 #include<stdio.h>
-#include<conio.h>
 
 int occurence(char st[], char c);
-void main()
+int main()
 {
 	char str[]="karan";
 	int count;
-	clrscr();
 
 	count=occurence(str,'7');
 	printf("Occurence=%d\n", count);
 
-	getch();
+	return 0;
 }
 int occurence(char st[], char c)
 {
