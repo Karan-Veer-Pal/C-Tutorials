@@ -1,13 +1,12 @@
 //WORNGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-//WAP to check whether a given character is present in a string or not?
-#include<stdio.h>
-#include<conio.h>
+// Day : 117 WAP to check whether a given character is present in a string or not?
 
-void main()
+#include<stdio.h>
+
+int main()
 {
 	char str[100];
 	int i;
-	clrscr();
 
 	printf("Enter any string:\n");
 	gets(str);
@@ -19,6 +18,5 @@ void main()
 		printf("str[%d]=%s\n", i, str);
 	}
 
-
-	getch();
+	return 0;
 }
