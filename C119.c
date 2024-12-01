@@ -1,6 +1,6 @@
-//WAP to store the details of a 3 employees from user defined data?
+// Day : 119 WAP to store the details of a 3 employees from user defined data?
+
 #include<stdio.h>
-#include<conio.h>
 
 struct employee
 {
@@ -8,7 +8,8 @@ struct employee
 	int id_code;
 	float salary;
 };
-void main()
+
+int main()
 {
 	struct employee e1;
 	struct employee *ptr;
@@ -16,7 +17,6 @@ void main()
 	struct employee *p;
 	ptr=&e1;
 	p=&e2;
-	clrscr();
 
 	printf("Enter the details of the first employee :\n");
 	printf("Enter the name of a employee:\n");
@@ -46,5 +46,5 @@ void main()
 	printf("The id_code of a employee is:%d\n", (*p).id_code);
 	//printf("The salary of a employee is:%.2f\n", (*p).salary);
 
-	getch();
+	return 0;
 }
